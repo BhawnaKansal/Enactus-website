@@ -23,3 +23,9 @@ h2>span {
     width: 3vw;
     margin: 2vw;
 }
+@media only screen and (max-width: 768px){
+    .footer{
+        display: block;
+        
+    }
+}

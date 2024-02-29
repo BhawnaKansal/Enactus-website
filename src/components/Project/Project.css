@@ -1,0 +1,36 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap');
+.projectRow1{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 5vw;
+    margin-right: 5vw;
+    background-color: rgb(246, 240, 232);
+}
+img{
+    width: 27vw;
+    margin: 3vw;
+}
+.project_col2{
+    >p{
+        text-align: center;
+        line-height: 2.3vw;
+        font-size: 1.3vw;
+    }
+    >h1{
+        text-align: center;
+        margin-bottom: 4vw;
+        font-family:"Dancing Script" ;
+        font-size: 3vw;
+        font-weight: 700;
+    }
+}
+.projectRow2{
+    display: flex;
+    justify-content: space-between;
+}
+.projectName{
+    >img{
+        width: 18vw;
+    }
+}
