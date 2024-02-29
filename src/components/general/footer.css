@@ -1,19 +1,25 @@
-.footer{
+.footer {
     background-color: #323232;
     display: flex;
     justify-content: space-around;
     color: white;
 }
-h2>span{
+
+h2>span {
     color: #FFC220;
 }
-.footer_col1 img{
-width: 20vw;
+
+.footer_col1 img {
+    width: 20vw;
 }
-.footer_col1,.footer_col2,.footer_col3{
-padding: 2vw;
+
+.footer_col1,
+.footer_col2,
+.footer_col3 {
+    padding: 2vw;
 }
-.socialMedia img{
+
+.socialMedia img {
     width: 3vw;
     margin: 2vw;
 }
