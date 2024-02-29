@@ -1,11 +1,11 @@
 import React, { useState } from "react";
 import "./navbar.css";
 import { Link } from "react-router-dom";
-import img from "D:/git/Enactus-website/src/Assets/g12.png"
+import img from "../../Assets/g12.png"
 import { VscMenu } from "react-icons/vsc";
 import { ImCross } from "react-icons/im";
-import logo2 from "D:/git/Enactus-website/src/Assets/logo2.png"
-import logo1 from "D:/git/Enactus-website/src/Assets/logo1.png"
+import logo2 from "../../Assets/logo2.png"
+import logo1 from "../../Assets/enactus.svg"
 
 function Navbarnew() {
 
