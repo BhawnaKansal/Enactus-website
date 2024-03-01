@@ -35,8 +35,37 @@
 }
 
 .projectName{
+    display: block;
+    text-align: center;
     >img{
-        width: 20vw;
+        /* width: 20vw; */
         margin: 2vw;
+        margin-bottom: 0;
+    }
+}
+.viewMore{
+    margin: 1vw;
+    padding: 0.5vw;
+    color: white;
+    background-color: black;
+    border-radius: 0.5vw;
+
+}
+.img1{
+    width: 14vw;
+}
+.img2{
+    width: 16vw;
+}
+.img3{
+    width: 22vw;
+}
+.img4{
+    width: 27vw;
+}
+@media only screen and (max-width: 768px){
+    .viewMore{
+        font-size: 1vw;
+        /* margin-left: 2vw; */
     }
 }
