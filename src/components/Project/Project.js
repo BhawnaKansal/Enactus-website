@@ -4,10 +4,10 @@ import img1 from '../../Assets/Group 1675.svg'
 import img2 from '../../Assets/Group 1679.svg'
 import img3 from '../../Assets/Group 1680.svg'
 import img4 from '../../Assets/Group 1681.svg'
-import ark from '../../Assets/ark.svg'
-import khoj from '../../Assets/khoj.svg'
-import anushruti from '../../Assets/anushruti (1).svg'
-import parvati from '../../Assets/parvati.svg'
+import ark from '../../Assets/ark 1.png'
+import khoj from '../../Assets/khoj 1.png'
+import anushruti from '../../Assets/anushruti 1.png'
+import parvati from '../../Assets/parvati.png'
 
 function Project() {
   return (
@@ -33,16 +33,20 @@ Enactus IITR has taken up 6 projects till date, of which 2 have been successfull
       </div>
       <div className='projectRow2'>
         <div className='projectName'>
-        <img src={ark} alt="" />
+        <img className='img1' src={ark} alt="" />
+        <button className='viewMore'>View More</button>
         </div>
         <div className='projectName'>
-        <img src={khoj} alt="" />
+        <img className='img2' src={khoj} alt="" />
+        <button className='viewMore'>View More</button>
         </div>
         <div className='projectName'>
-        <img src={anushruti} alt="" />
+        <img className='img3' src={anushruti} alt="" />
+        <button className='viewMore'>View More</button>
         </div>
         <div className='projectName'>
-        <img src={parvati} alt="" />
+        <img className='img4' src={parvati} alt="" />
+        <button className='viewMore'>View More</button>
         </div>
       </div>
     </div>
