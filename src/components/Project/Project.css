@@ -7,12 +7,14 @@
     margin-right: 5vw;
     background-color: rgb(246, 240, 232);
 }
-img{
+.projectRow1 img{
+
     width: 27vw;
     margin: 3vw;
+
 }
 .project_col2{
-    >p{
+    p{
         text-align: center;
         line-height: 2.3vw;
         font-size: 1.3vw;
@@ -24,13 +26,17 @@ img{
         font-size: 3vw;
         font-weight: 700;
     }
+    
 }
 .projectRow2{
     display: flex;
     justify-content: space-between;
+
 }
+
 .projectName{
     >img{
-        width: 18vw;
+        width: 20vw;
+        margin: 2vw;
     }
 }
