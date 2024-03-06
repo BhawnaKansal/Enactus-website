@@ -12,7 +12,7 @@ function Navbarnew() {
   // const [isOpen, setOpen] = useState(false)
 
 
-  const [activeMenu, setActiveMenu] = useState("");
+  const [activeMenu, setActiveMenu] = useState("Home");
   const [burgerstate, setBurgerState] = useState(true);
   const [ham, setHam] = useState(false);
   const showham = () => {
@@ -21,7 +21,7 @@ function Navbarnew() {
   };
   return (
     <>
-      <div className="navbarWrapper">
+      <div className="navbarWrapper" style={{ backgroundColor: activeMenu === "Home" ? 'transparent' : "#323232" }}>
         <div className="logos">
           <div className="logo1">
             <img src={logo1} id="img1" />
