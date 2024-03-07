@@ -8,6 +8,8 @@ import ark from '../../Assets/ark 1.png'
 import khoj from '../../Assets/khoj 1.png'
 import anushruti from '../../Assets/anushruti 1.png'
 import parvati from '../../Assets/parvati.png'
+import bgimg from '../../Assets/nordwood-themes-R53t-Tg6J4c-unsplash.jpg'
+import Card from './Card'
 
 function Project() {
   return (
@@ -32,7 +34,7 @@ Enactus IITR has taken up 6 projects till date, of which 2 have been successfull
       </div>
       </div>
       <div className='projectRow2'>
-        <div className='projectName'>
+        {/* <div className='projectName'>
         <img className='img1' src={ark} alt="" />
         <button className='viewMore'>View More</button>
         </div>
@@ -47,7 +49,14 @@ Enactus IITR has taken up 6 projects till date, of which 2 have been successfull
         <div className='projectName'>
         <img className='img4' src={parvati} alt="" />
         <button className='viewMore'>View More</button>
+        </div> */}
+        <div className='ongoingProjects'><p><span className='yellowText'>Ongoing</span> Projects</p></div>
+        <div className="projects123">
+        <Card className="card" img={ark}/>
+        <Card className="card" img={anushruti} />
+        <Card className="card" img={parvati}/>
         </div>
+        
       </div>
     </div>
   )
