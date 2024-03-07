@@ -1,5 +1,7 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap');
+
+
 .projectRow1{
     display: flex;
     justify-content: space-between;
@@ -26,12 +28,10 @@
         font-size: 3vw;
         font-weight: 700;
     }
-    
+
 }
 .projectRow2{
-    display: flex;
-    justify-content: space-between;
-
+    margin-bottom: 5vw;
 }
 
 .projectName{
@@ -43,7 +43,7 @@
         margin-bottom: 0;
     }
 }
-.viewMore{
+/* .viewMore{
     margin: 1vw;
     padding: 0.5vw;
     color: white;
@@ -62,6 +62,27 @@
 }
 .img4{
     width: 27vw;
+} */
+.projects123{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.ongoingProjects{
+    display: block;
+    text-align: center;
+    font-size: 5vw;
+    font-weight: 700;
+}
+.yellowText{
+    color: #FFC220;
+}
+.card{
+    margin: 1vw;
+    height: 25vw;
+    width: 25vw;
+    /* padding: 2vw; */
 }
 @media only screen and (max-width: 768px){
     .viewMore{

@@ -4,7 +4,7 @@ import Navbarnew from '../general/Navbargeneral'
 import Footer from '../general/footer'
 import Project from '../Project/Project'
 import AboutUS from './afterindex'
-import "D:/git/Enactus-website/src/components/Home/index.css"
+import "./index.css"
 
 function home() {
   return (
