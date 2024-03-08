@@ -8,6 +8,7 @@ import React, { Suspense, lazy } from "react";
 
 
 import "./App.css";
+import JoinUs from "./components/JoinUs/JoinUs.js";
 const Home = lazy(() => {
   return new Promise(resolve => {
     setTimeout(() => resolve(import("./components/Home/index.js")), 400);
@@ -39,7 +40,8 @@ function App() {
     <Router>
       <Routes>
       <Route path="/" element={<Home />} />
-
+      <Route path="/joinUs" element={<JoinUs />} />
+       
       </Routes>
     </Router>
   );
