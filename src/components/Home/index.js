@@ -2,10 +2,10 @@ import React from 'react'
 import Navbarnew from '../general/Navbargeneral'
 // import homeimg from 'D:/git/Enactus-website/src/Assets/homeimg.png'
 import Footer from '../general/footer'
-import Project from '../Project/Project'
-import AboutUS from './afterindex'
-import "./index.css"
-
+import Project from './Project'
+import AboutUS from './AboutUs'
+import "D:/git/Enactus-website/src/components/Home/index.css"
+ 
 function home() {
   return (
     <div className='Home-wrapper'>

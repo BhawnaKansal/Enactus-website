@@ -1,0 +1,32 @@
+.ark-wrapper {
+    background-image: url('D:\git\Enactus-website\src\Assets\Rectangle 496.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    display: block;
+}
+
+.arkintro {
+    margin-top: 16vh;
+
+
+}
+
+.arkintro1 {
+    background-image: url('D:\git\Enactus-website\src\Assets\Mask group.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 30vh;
+    margin-left: 40vw;
+
+}
+
+.arkintroin {
+    background-image: url('D:\git\Enactus-website\src\Assets\Group 20.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 25vh;
+    margin-left: 37.5vw;
+    margin-top: 0vh;
+    align-items: center;
+}
