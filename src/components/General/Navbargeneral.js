@@ -12,7 +12,7 @@ function Navbarnew() {
   // const [isOpen, setOpen] = useState(false)
 
 
-  const [activeMenu, setActiveMenu] = useState("Home");
+  const [ActiveMenu, setActiveMenu] = useState("Home");
   const [burgerstate, setBurgerState] = useState(true);
   const [ham, setHam] = useState(false);
   const showham = () => {
@@ -21,18 +21,19 @@ function Navbarnew() {
   };
   return (
     <>
-      <div className="navbarWrapper" style={{ backgroundColor: activeMenu === "Home" ? 'transparent' : "#323232" }}>
+      <div className="navbarWrapper" style={{ backgroundColor: ActiveMenu === "Home" ? 'transparent' : "#323232" }}>
         <div className="logos">
           <div className="logo1">
             <img src={logo1} id="img1" />
           </div>
         </div>
+
         <div className="nav-links">
           <ul className="pageNames">
             <li>
               <Link
                 to="/"
-                className={activeMenu === "Home" ? "active-links" : "links"}
+                className={ActiveMenu === "Home" ? "active-links" : "links"}
                 onClick={() => {
                   setActiveMenu("Home");
                 }}
@@ -43,9 +44,10 @@ function Navbarnew() {
             <li>
               <Link
                 to="/projects"
-                className={activeMenu === "projects" ? "active-links" : "links"}
+                className={ActiveMenu === "projects" ? "active-links" : "links"}
                 onClick={() => {
                   setActiveMenu("projects");
+                  console.log(ActiveMenu)
                 }}
               >
                 OUR PROJECTS
@@ -54,7 +56,7 @@ function Navbarnew() {
             <li>
               <Link
                 to="/aboutus"
-                className={activeMenu === "aboutus" ? "active-links" : "links"}
+                className={ActiveMenu === "aboutus" ? "active-links" : "links"}
                 onClick={() => {
                   setActiveMenu("aboutus");
                 }}
@@ -65,7 +67,7 @@ function Navbarnew() {
             <li>
               <Link
                 to="/team"
-                className={activeMenu === "team" ? "active-links" : "links"}
+                className={ActiveMenu === "team" ? "active-links" : "links"}
                 onClick={() => {
                   setActiveMenu("team");
                 }}
@@ -76,7 +78,7 @@ function Navbarnew() {
             <li>
               <Link
                 to="/contact"
-                className={activeMenu === "contact" ? "active-links" : "links"}
+                className={ActiveMenu === "contact" ? "active-links" : "links"}
                 onClick={() => {
                   setActiveMenu("conatct");
                 }}
@@ -106,7 +108,7 @@ function Navbarnew() {
               <li>
                 <Link
                   to="/"
-                  className={activeMenu === "Home" ? "active-links" : "links"}
+                  className={ActiveMenu === "Home" ? "active-links" : "links"}
                   onClick={() => {
                     setActiveMenu("Home");
                     setHam(false);
@@ -118,7 +120,7 @@ function Navbarnew() {
               <li>
                 <Link
                   to="/projects"
-                  className={activeMenu === "projects" ? "active-links" : "links"}
+                  className={ActiveMenu === "projects" ? "active-links" : "links"}
                   onClick={() => {
                     setActiveMenu("projects");
                     setHam(false);
@@ -131,7 +133,7 @@ function Navbarnew() {
                 <Link
                   to="/aboutus"
                   className={
-                    activeMenu === "aboutus" ? "active-links" : "links"
+                    ActiveMenu === "aboutus" ? "active-links" : "links"
                   }
                   onClick={() => {
                     setActiveMenu("aboutus");
@@ -145,7 +147,7 @@ function Navbarnew() {
                 <Link
                   to="/team"
                   className={
-                    activeMenu === "team" ? "active-links" : "links"
+                    ActiveMenu === "team" ? "active-links" : "links"
                   }
                   onClick={() => {
                     setActiveMenu("team");
@@ -159,7 +161,7 @@ function Navbarnew() {
               <Link
                   to="/contact"
                   className={
-                    activeMenu === "contact" ? "active-links" : "links"
+                    ActiveMenu === "contact" ? "active-links" : "links"
                   }
                   onClick={() => {
                     setActiveMenu("contact");

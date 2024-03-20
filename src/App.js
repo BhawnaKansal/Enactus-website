@@ -2,21 +2,19 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom"
 import './App.css';
 import Footer from "./components/general/footer.js";
 
-
-import "./App.css";
 import React, { Suspense, lazy } from "react";
-
-
-import "./App.css";
 import JoinUs from "./components/JoinUs/JoinUs.js";
+import Projectark from "./components/Project/ark.js";
+
 const Home = lazy(() => {
   return new Promise(resolve => {
     setTimeout(() => resolve(import("./components/Home/index.js")), 400);
   });
 });
-// const Events = lazy(() => {
+ 
+// const Projects = lazy(() => {
 //   return new Promise(resolve => {
-//     setTimeout(() => resolve(import("./components/Events/index.js")), 400);
+//     setTimeout(() => resolve(import("./components/Project/ark.js")), 400);
 //   });
 // });
 // const AboutUs = lazy(() => {
@@ -41,6 +39,7 @@ function App() {
       <Routes>
       <Route path="/" element={<Home />} />
       <Route path="/joinUs" element={<JoinUs />} />
+      <Route path="/projects" element={<Projectark/>}/>
        
       </Routes>
     </Router>
