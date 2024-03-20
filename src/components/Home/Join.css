@@ -1,0 +1,9 @@
+.Join{
+    background: url("../../Assets/Group\ 626377.png");
+    background-repeat: no-repeat;
+    /* background-size: cover; */
+    height: 100vh;
+    >img{
+        z-index: 2;
+    }
+}

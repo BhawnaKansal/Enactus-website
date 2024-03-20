@@ -4,7 +4,11 @@ import Navbarnew from '../general/Navbargeneral'
 import Footer from '../general/footer'
 import Project from './Project'
 import AboutUS from './AboutUs'
-import "D:/git/Enactus-website/src/components/Home/index.css"
+import "./index.css"
+import tagline from '../../Assets/tagline.png'
+import Progress from './Progress'
+import enactusimg from '../../Assets/Component 1.png'
+import Join from './Join'
  
 function home() {
   return (
@@ -12,16 +16,22 @@ function home() {
         <div className='navstart'>
             <Navbarnew></Navbarnew>
             <div className='intro'>
-              <div className="intro1">
-                <h1>Social Enterpreneurship</h1>
+              {/* <div className="intro1"> */}
+                {/* <h1>Social Enterpreneurship</h1>
               </div>
               <div className="introin">
               “Social entrepreneurs are not content just to give a fish or teach how to fish. They will not rest until they have revolutionized the fishing industry.”
-              </div>
+              </div> */}
+              <img src={enactusimg} alt="" />
             </div>
         </div>
         <AboutUS></AboutUS>
+        <div className='tagline'>
+          <img src={tagline} alt="..." />
+        </div>
+        <Progress />
         <Project />
+        {/* <Join /> */}
             <Footer></Footer>
       
     </div>

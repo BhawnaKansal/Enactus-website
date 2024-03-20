@@ -8,7 +8,7 @@ import step2 from '../../Assets/2.svg'
 import step3 from '../../Assets/3.svg'
 import step4 from '../../Assets/4.svg'
 import primary from '../../Assets/Group 1586.png'
-import recr from '../../Assets/Group 626390.png'
+import recr from '../../Assets/hiring 1.png'
 import Footer from '../general/footer'
 function JoinUs() {
   return (
@@ -18,7 +18,7 @@ function JoinUs() {
         <div className="joinUstext">JOIN US</div>
       </div>
       <div className="joinUs2">
-        <p className="whyQues">Why Join Enactus</p>
+        <p className="whyQues">Why Join Enactus?</p>
         <p className='contentJoinUs'>Entrepreneurship in the 21st century is not only about creating and growing for-profit businesses but also about sustainability and environmental sensitivity. Enactus is an international non-profit organization that believes in investing in students who take entrepreneurial action for others, thus creating a better world for us all. Enactus works to promote social entrepreneurship among young minds in educational institutes all over the globe.</p>
       </div>
       <div className="joinUs3">
@@ -80,7 +80,9 @@ function JoinUs() {
         <div className='pysButton'><button ><img src={primary} alt="" /><span className='primary'>Primary</span></button></div>
         </div>
     <div className="recruitment">
-        <img src={recr} alt="" />
+        <div className="titleRecr">
+            <img src={recr} alt="" /><p>Recruitment Process</p>
+        </div>
         <div className="recrProcess">
         <div className="recrstep">
             <img src={step1} alt="1" />

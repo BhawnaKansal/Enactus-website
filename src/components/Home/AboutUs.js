@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import "D:/git/Enactus-website/src/components/Home/AboutUs.css";
+import "./AboutUs.css";
 import data from "./dataabout.js";
 
 
@@ -24,8 +24,8 @@ function AboutUS(){
           <div className="Aboutus-vision">
             <div className="Aboutus-body">
               <div className="Aboutus-info">
-                <h1>{data[Index].title}</h1>
-                <p>{data[Index].context}</p>
+                {/* <h1>{data[Index].title}</h1>
+                <p>{data[Index].context}</p> */}
                 <button className="know-morebtn">Learn more </button>
               </div>
             </div>

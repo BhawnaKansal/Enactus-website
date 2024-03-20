@@ -1,0 +1,24 @@
+.Progress{
+    margin-bottom: 5vw;
+    >h1{
+        font-size: 5vw;
+        text-align: center;
+        color: #062726;
+    }
+    >div{
+        display: block;
+        text-align: center;
+        
+    }
+}
+.Progress img{
+    display: block;
+    text-align: center;
+    width: 15vw;
+}
+.progress1,.progress2,.progress3{
+display: flex;
+align-items: center;
+justify-content: center;
+margin: 4.5vw;
+}
