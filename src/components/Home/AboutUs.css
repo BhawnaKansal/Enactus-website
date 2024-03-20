@@ -1,7 +1,7 @@
  .AboutusWrapper {
      /* margin-top: 2rem; */
      margin-bottom: 1rem;
-     background-image: url("D:\git\Enactus-website\src\Assets\aboutus2.jpg");
+     background-image: url("../../Assets/aboutus2.jpg");
      background-repeat: no-repeat;
      background-size: cover;
      background-color: #f6e3d4;
@@ -38,7 +38,7 @@
 
  .Aboutus-vision {
 
-     width: 56vw;
+     width: 50vw;
      z-index: 10000000;
      height: 100%;
      /* background-image: linear-gradient(180deg, #fadd00 0%, rgba(44, 76, 157, 0) 92.74%); */

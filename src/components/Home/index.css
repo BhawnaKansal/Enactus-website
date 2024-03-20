@@ -5,7 +5,7 @@
 
 .navstart {
     height: 100vh;
-    background: url("../../Assets/aboutus1.jpg");
+    background: url("../../Assets/111.svg");
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
@@ -13,8 +13,11 @@
 }
 
 .intro {
-    margin-top: 40vh;
-
+    /* margin-top: 40vh; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
 }
 
 .intro1 h1 {
@@ -31,7 +34,16 @@
     font-size: 20px;
     text-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
 }
-
+.tagline{
+    height: fit-content;
+    width: auto;
+    padding: 2vw;
+    text-align: center;
+    >img{
+        width: 50vw;
+        margin: 2vw;
+    }
+}
 
 
 /* .aboutus::before {

@@ -1,6 +1,6 @@
 import React from 'react'
 import Navbarnew from '../general/Navbargeneral'
-import "D:/git/Enactus-website/src/components/Project/ark.css"
+import "./ark.css"
 
 function Projectark() {
   return (<>

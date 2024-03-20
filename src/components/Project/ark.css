@@ -1,5 +1,5 @@
 .ark-wrapper {
-    background-image: url('D:\git\Enactus-website\src\Assets\Rectangle 496.jpg');
+    background-image: url('../../Assets/Rectangle\ 496.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     height: 100vh;
@@ -13,7 +13,7 @@
 }
 
 .arkintro1 {
-    background-image: url('D:\git\Enactus-website\src\Assets\Mask group.png');
+    background-image: url('../../Assets/Mask\ group.png');
     background-size: contain;
     background-repeat: no-repeat;
     height: 30vh;
@@ -22,7 +22,7 @@
 }
 
 .arkintroin {
-    background-image: url('D:\git\Enactus-website\src\Assets\Group 20.png');
+    background-image: url('../../Assets/Group\ 20.png');
     background-size: contain;
     background-repeat: no-repeat;
     height: 25vh;
