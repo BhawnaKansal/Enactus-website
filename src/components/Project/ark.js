@@ -1,6 +1,15 @@
 import React from 'react'
 import Navbarnew from '../general/Navbargeneral'
 import "./ark.css"
+import sdgimage1 from '../../Assets/sdg8.png'
+import sdgimage2 from '../../Assets/sdg11.png'
+import sdgimage3 from '../../Assets/sdg14.png'
+import Progr from './ourdata'
+import Ourproducts from './Ourproducts'
+import Media1 from './media'
+import Footer from '../general/footer'
+
+
 
 function Projectark() {
   return (<>
@@ -23,7 +32,17 @@ all the floral waste is upcycled into usable products. The plan is to get these 
  becoming financially independent. As a social enterprise, we strive to create an
  environment friendly and socially improved society through reduction of pollution and
  simultaneous creation of self sustainable local entrepreneurs.</p>
+     <h1>Target SDGs</h1>
+     <div className="susimages">
+     <img src={sdgimage1} alt="" />
+     <img src={sdgimage2} alt="" />
+     <img src={sdgimage3} alt="" />
+     </div>
+     <Progr></Progr>
+     <Ourproducts></Ourproducts>
+     <Media1></Media1>
     </div>
+    <Footer></Footer>
     </>
   )
 }

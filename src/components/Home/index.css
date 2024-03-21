@@ -5,7 +5,7 @@
 
 .navstart {
     height: 100vh;
-    background: url("../../Assets/111.svg");
+    background: url("D:\git\Enactus-website\src\Assets\111.png");
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
@@ -34,12 +34,14 @@
     font-size: 20px;
     text-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
 }
-.tagline{
+
+.tagline {
     height: fit-content;
     width: auto;
     padding: 2vw;
     text-align: center;
-    >img{
+
+    >img {
         width: 50vw;
         margin: 2vw;
     }

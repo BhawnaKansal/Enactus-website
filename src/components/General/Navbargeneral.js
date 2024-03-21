@@ -66,7 +66,7 @@ function Navbarnew() {
             </li>
             <li>
               <Link
-                to="/team"
+                to="/joinUs"
                 className={ActiveMenu === "team" ? "active-links" : "links"}
                 onClick={() => {
                   setActiveMenu("team");
@@ -145,7 +145,7 @@ function Navbarnew() {
               </li>
               <li>
                 <Link
-                  to="/team"
+                  to="/joinUs"
                   className={
                     ActiveMenu === "team" ? "active-links" : "links"
                   }

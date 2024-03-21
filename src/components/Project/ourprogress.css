@@ -1,0 +1,9 @@
+.wrapper {
+    height: 100vh;
+    margin-top: 10vh;
+    background-color: #062726;
+}
+
+.wrapper h1 {
+    color: #607F72;
+}
