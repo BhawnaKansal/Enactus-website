@@ -2,8 +2,23 @@
     height: 100vh;
     margin-top: 10vh;
     background-color: #062726;
+
 }
 
 .wrapper h1 {
     color: #607F72;
+    /* margin-top: 10vh; */
+}
+
+.progresswrapper {
+    display: flex;
+    /* Use flexbox */
+    justify-content: center;
+    /* Horizontally center */
+    align-items: center;
+}
+
+.progresswrapper img {
+    height: 50vh;
+    margin-top: 15vh;
 }

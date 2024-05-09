@@ -6,7 +6,9 @@ function Progr() {
   return (
     <div className='wrapper'>
      <h1>OUR PROGRESS</h1>
+     <div className="progresswrapper">
      <img src={progressimage}></img>
+     </div>
     </div>
   )
 }
